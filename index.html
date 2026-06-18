@@ -457,7 +457,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;ba
       <div class="card-body">
         <div class="info-box" style="margin-bottom:12px">Go to <strong>script.google.com</strong> → New Project. Paste the code, set <strong>SHEET_ID</strong>, deploy as Web App → Anyone. Copy the <code>/exec</code> URL into <strong>HARDCODED_WEBHOOK_URL</strong> in the HTML file.</div>
         <div class="code-block" id="apps-script-code"><button class="copy-btn-abs" onclick="copyAppsScript()">Copy</button>// Worship Response Webhook — Google Apps Script
-var SHEET_ID   = 'YOUR_GOOGLE_SHEET_ID_HERE';
+var SHEET_ID   = '1IZkB8ceIThOzxhPgsrIGRPmNEQiStKj3tADZAnviOps';
 var SHEET_NAME = 'Responses';
 
 function doGet(e) {
@@ -556,7 +556,7 @@ function okOut() {
 // ═══════════════════════════════════════════════════════════════════════════
 
 // Apps Script deployment URL (required for Google Sheets sync)
-var HARDCODED_WEBHOOK_URL = '';
+var HARDCODED_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbyoZ4Aa256OubDqXimF9ssIF1IVhpaYGmFKPPlxTH_dZBOhVfAarcQdZ0s4SAwal0YH/exec';
 
 // Elder PIN — change this here rather than in the Settings UI so all
 // devices get the new PIN the moment the file is re-uploaded to GitHub.
